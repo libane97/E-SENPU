@@ -49,9 +49,7 @@
                                      @endfor
                                 </select>
                             </td>
-                            <input type="hidden" name="id" value="{{ $data->id}}">
-                            <input type="hidden" name="qty" value="{{ $data->qty}}">
-                            <input type="hidden" name="prix" value="{{ $data->price * $data->qty }}">
+
                             <td class="align-middle">
                                  <form action="{{route('cart.destroy', $data->rowId)}}" method="POST">
                                      @csrf
@@ -97,7 +95,14 @@
                     <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
                       <h5 class="font-weight-bold">{{getPrice(Cart::total())}}</h5>
                     </li>
-                  </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block"> <i class="fa fa-credit-card" aria-hidden="true"></i>Passer la commande</a>
+                  </ul>
+                  {{--  <a href="#" class="btn btn-dark rounded-pill py-2 btn-block"> <i class="fa fa-credit-card" aria-hidden="true"></i>Passer la commande</a>  --}}
+                  <form action="{{ route('command.store')}}" method="post">
+                       @csrf
+                       <input type="hidden" name="price" value="{{ $data->model->price }}">
+                       <input type="hidden" name="qty" value="{{ $data->model->qty }}">
+                       <button type="submit" class="btn btn-dark rounded-pill py-2 btn-block"><i class="fa fa-credit-card" aria-hidden="true"></i>Passer la commande</button>
+                  </form>
                 </div>
               </div>
             </div>

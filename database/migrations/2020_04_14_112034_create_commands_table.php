@@ -15,11 +15,8 @@ class CreateCommandsTable extends Migration
     {
         Schema::create('commands', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('idp');
-            $table->string('produit');
-            $table->integer('price');
-            $table->integer('qty');
-            $table->unsignedBigInteger('user_id');
+            $table->text('produits');
+            $table->unsignedBigInteger('user_id')->nullable();
             $table->timestamps();
         });
     }

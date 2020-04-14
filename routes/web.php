@@ -26,6 +26,10 @@ Route::get('panier', 'CartController@index')->name('cart.index');
 Route::patch('/panier/{rowId}', 'CartController@update')->name('cart.update');
 Route::delete('panier/{rowId}', 'CartController@destroy')->name('cart.destroy');
 
+ /*Gestion de commande */
+
+Route::post('command', 'CommandController@store')->name('command.store');
+
 Route::get('/vide', function () {
     Cart::destroy();
 });
