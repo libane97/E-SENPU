@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c971d371-e445-47f0-8edf-189287a7d957" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../E-SENPUS/app/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-SENPUS/resources/views/cart/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-SENPUS/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-SENPUS/resources/views/products/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-SENPUS/resources/views/products/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/app/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/resources/views/cart/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/resources/views/product/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/resources/views/product/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/cartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/cartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/ProduictTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/ProduictTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/carts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/carts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/products/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/products/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aUa6UmDIhv0hiXSNF6QPfA9ivn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c971d371-e445-47f0-8edf-189287a7d957" name="Default Changelist" comment="" />
+      <created>1586792450631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586792450631</updated>
+      <workItem from="1586792453863" duration="123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1586792576532">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586792576532" />
+    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1586792576532">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586792576532" />
+    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1586792576531">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586792576531" />
+    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1586792576532">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586792576532" />
+  </component>
+</project>
