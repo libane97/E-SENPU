@@ -12,4 +12,8 @@ class Products extends Model
         $price = $this->price / 100;
         return number_format($price,2,'' ,' ') .' CFA';
     }
+    public function categories()
+    {
+        return $this->belongsToMany('App\Category');
+    }
 }

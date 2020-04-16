@@ -35,7 +35,7 @@
                           <tr>
                             <th scope="row">
                               <div class="p-2">
-                                <img src="{{$data->model->image}}" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                <img src="{{asset('storage/'.$data->model->image)}}" alt="" width="70" class="img-fluid rounded shadow-sm">
                                 <div class="ml-3 d-inline-block align-middle">
                                   <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">{{$data->model->title}}</a></h5><span class="text-muted font-weight-normal font-italic">Category: Electronics</span>
                                 </div>

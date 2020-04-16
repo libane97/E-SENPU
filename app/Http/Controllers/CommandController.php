@@ -50,7 +50,7 @@ class CommandController extends Controller
          //$command->price = $request->price;
          //$command->qty = $request->qty;
          $command->produits = serialize($produits);
-         $command->user_id = 15;
+         $command->user_id = Auth()->user()->id;
          // dd($command);
          $command->save();
          Cart::destroy();

@@ -15,7 +15,14 @@ class ProduitController extends Controller
      */
     public function index()
     {
-        $produit = Products::all();
+        if (request()->categories) {
+            $produit = Products::with('categories')->whereHas('categories',function ($query)
+            {
+                $query->where('slug','=',request()->categories);
+            })->orderBy('created_at', 'DESC')->paginate(8);
+        }else{
+        $produit = Products::with('categories')->orderBy('created_at', 'DESC')->paginate(8);
+        }
          //dd($produit);
         return view('products.index',compact('produit'));
     }
@@ -85,5 +92,17 @@ class ProduitController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function search()
+    {
+        request()->validate([
+            'q' => 'required|min:3',
+            ]);
+        $q = request()->input('q');
+        $produit = Products::where('title','like', "%$q%")
+           ->orWhere('description','like', "%$q%")
+           ->paginate(6);
+           return view('products.search',compact('produit'))
+           ->with('search', 'Vous avez rien saisie dans la barre rechercher');
     }
 }
